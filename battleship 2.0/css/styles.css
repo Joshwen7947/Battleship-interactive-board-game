@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+}
+
+#board {
+  position: relative;
+  width: 1024px;
+  height: 863px;
+  margin: auto;
+}
+
+#board h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+#messageArea {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #53af13;
+}
+
+.hit {
+  background: url("ship.png") no-repeat center center;
+}
+
+.miss {
+  background: url("miss.png") no-repeat center center;
+}
+
+table {
+  border-spacing: 0px;
+  /* could use border-collapse instead */
+  /* border-collapse: collapse; */
+  position: absolute;
+  left: 173px;
+  top: 98px;
+}
+
+td {
+  width: 94px;
+  height: 94px;
+}
+
+form {
+  position: absolute;
+  bottom: 0px;
+  right: -50px;
+  padding: 15px;
+  background-color: #53af13;
+}
+
+form input {
+  background-color: #98cf71;
+  border-color: #53af13;
+  font-size: 1em;
+}
+/*# sourceMappingURL=styles.css.map */
